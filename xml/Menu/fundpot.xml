@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/event/manage/funding</path>
+    <page_callback>CRM_FundPot_Event_Form_FundingOverview</page_callback>
+    <title>FundingOverview</title>
+    <access_arguments>access CiviEvent,edit all events</access_arguments>
+  </item>
+</menu>
